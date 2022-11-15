@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+#app {
+	height: 100vh;
+
+	font-family: "Poppins", sans-serif;
+}
+.title-color {
+	color: #151515;
+}
+
+.welcome-bg {
+	background: radial-gradient(
+			100% 130.08% at 0% 0%,
+			#56815f 0%,
+			#3f6148 15.72%,
+			#2b4d35 36.84%,
+			#172623 100%
+		)
+		/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.botton-shadow {
+	box-shadow: 1px -8px 20px -1px rgba(0, 0, 0, 0.25);
+}
